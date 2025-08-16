@@ -31,5 +31,5 @@ connectionDB()
     });
   })
   .catch((err) => {
-    console.error("Db not connected");
+    console.error("Db not connected" + err.message);
   });
